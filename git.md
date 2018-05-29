@@ -38,3 +38,7 @@ git diff <source_branch> <target_branch> 在改动之前可以看看两个分支之间的区别
 git checkout -- <filename> 如果做错事了就可以使用HEAD中的最新内容替换掉我的工作目录中的文件，当然已添加到缓存区的改动，以及新文件都不受影响
 git fetch origin 
 git reset --hard origin/master 如果想要丢弃本地的所有改动和提交，可以到服务器上获取最新的版本并将本地分支指向到它
+
+
+
+ssh -T git@github.com 通过该命令查看ssh是否配置成功
